@@ -28,18 +28,10 @@
       // Features
       "@Home": ["./src/features/Home"],
       "@Home/*": ["./src/features/Home/*"],
-      "@User": ["./src/features/User"],
-      "@User/*": ["./src/features/User/*"],
-      "@Report": ["./src/features/Report"],
-      "@Report/*": ["./src/features/Report/*"],
-      "@Auth": ["./src/features/Auth"],
-      "@Auth/*": ["./src/features/Auth/*"],
-      "@Loans": ["./src/features/Loans"],
-      "@Loans/*": ["./src/features/Loans/*"],
       "@Profile": ["./src/features/Profile"],
       "@Profile/*": ["./src/features/Profile/*"],
-      "@Catalog": ["./src/features/Catalog"],
-      "@Catalog/*": ["./src/features/Catalog/*"],
+      "@Restaurant": ["./src/features/Restaurant"],
+      "@Restaurant/*": ["./src/features/Restaurant/*"],
     }
   }
 }

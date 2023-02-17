@@ -34,12 +34,8 @@ module.exports = {
 
           // Features
           '@Home': './src/features/Home',
-          '@Loans': './src/features/Loans',
           '@Profile': './src/features/Profile',
-          '@Catalog': './src/features/Catalog',
-          '@User': './src/features/User',
-          '@Report': './src/features/Report',
-          '@Auth': './src/features/Auth',
+          '@Restaurant': './src/features/Restaurant',
         },
       },
     ],

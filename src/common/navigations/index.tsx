@@ -10,6 +10,8 @@ import {Text} from '@Components';
 import {Fonts, Spacing} from '@Constants/Metrics';
 import HomeScreen from '@Home/screens';
 import ProfileScreen from '@Profile/screens';
+import RestaurantScreen from '@Restaurant/screens/Restaurant';
+import RestaurantMenuScreen from '@Restaurant/screens/RestaurantMenu';
 
 const TAB_ICON_SIZE = 24;
 const Stack = createNativeStackNavigator();
@@ -98,14 +100,21 @@ const AppNavigationContainer = () => {
           component={Main}
           options={{headerShown: false}}
         />
-        {/*         
+
         <Stack.Screen
-          name={RouteNames.UserDetail}
-          component={UserDetailScreen}
+          name={RouteNames.Restaurant}
+          component={RestaurantScreen}
           options={{
-            headerTitle: 'Detail',
+            headerTitle: 'Restaurant',
           }}
-        /> */}
+        />
+        <Stack.Screen
+          name={RouteNames.RestaurantMenu}
+          component={RestaurantMenuScreen}
+          options={{
+            headerTitle: 'Restaurant',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
