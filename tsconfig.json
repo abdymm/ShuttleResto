@@ -1,0 +1,45 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      // Common
+      "@Constants": ["./src/common/constants"],
+      "@Constants/*": ["./src/common/constants/*"],
+      "@Components": ["./src/common/components"],
+      "@Components/*": ["./src/common/components/*"],
+      "@Services": ["./src/common/services"],
+      "@Services/*": ["./src/common/services/*"],
+      "@Hooks": ["./src/common/hooks"],
+      "@Hooks/*": ["./src/common/hooks/*"],
+      "@Utils": ["./src/common/utils"],
+      "@Utils/*": ["./src/common/utils/*"],
+      "@Navigations": ["./src/common/navigations"],
+      "@Navigations/*": ["./src/common/navigations/*"],
+      "@Types": ["./src/common/types"],
+      "@Types/*": ["./src/common/types/*"],
+      "@Stores": ["./src/common/stores"],
+      "@Stores/*": ["./src/common/stores/*"],
+      "@Assets": ["./assets/images"],
+      "@Assets/*": ["./assets/images/*"],
+
+      // Features
+      "@Home": ["./src/features/Home"],
+      "@Home/*": ["./src/features/Home/*"],
+      "@User": ["./src/features/User"],
+      "@User/*": ["./src/features/User/*"],
+      "@Report": ["./src/features/Report"],
+      "@Report/*": ["./src/features/Report/*"],
+      "@Auth": ["./src/features/Auth"],
+      "@Auth/*": ["./src/features/Auth/*"],
+      "@Loans": ["./src/features/Loans"],
+      "@Loans/*": ["./src/features/Loans/*"],
+      "@Profile": ["./src/features/Profile"],
+      "@Profile/*": ["./src/features/Profile/*"],
+      "@Catalog": ["./src/features/Catalog"],
+      "@Catalog/*": ["./src/features/Catalog/*"],
+    }
+  }
+}
