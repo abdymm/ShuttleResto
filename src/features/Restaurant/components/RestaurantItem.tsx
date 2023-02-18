@@ -8,6 +8,7 @@ import {Fonts, Spacing} from '@Constants/Metrics';
 import {Colors} from '@Constants';
 import {arrayToString} from '@Utils/String';
 import {mToKm, roundedOneDecimal, toMoneyFormat} from '@Utils/Math';
+import {placeholder} from '@Constants/Images';
 
 interface Props {
   item: Branch;
@@ -32,11 +33,7 @@ const RestaurantItem = ({item, onPress}: Props) => {
         onPress(item);
       }}>
       <View style={styles.imageContainer}>
-        <Image
-          source={require('@Assets/images/placeholder.png')}
-          style={styles.image}
-          resizeMode="cover"
-        />
+        <Image source={placeholder} style={styles.image} resizeMode="cover" />
       </View>
       <View style={styles.itemInfo}>
         <View style={styles.itemNameContainer}>

@@ -68,3 +68,47 @@ export interface Branch {
 export interface RootObject {
   branches: Branch[];
 }
+
+export interface ItemPicture {
+  Id: number;
+  PictureUrl: string;
+  Position: number;
+  PictureName: string;
+  ImageThumbnail: string;
+}
+
+export interface Item {
+  Id: number;
+  BranchId: number;
+  MenuItemId: number;
+  Name: string;
+  Description: string;
+  DisplayOrderNo: number;
+  IsSoldOut: boolean;
+  IsBestSeller: boolean;
+  HasCustomization: boolean;
+  HasAddons: boolean;
+  DisplayPrice: number;
+  DefaultVariantId: number;
+  PriceBeforeMarkUp: number;
+  PictureName: string;
+  HasImage: boolean;
+  Image: string;
+  ImageThumbnail: string;
+  ItemPictures: ItemPicture[];
+  PlaceholderIcon: string;
+  MenuComponentTypeId: number;
+}
+
+export interface Menu {
+  Id: number;
+  Name: string;
+  DisplayOrderNo: number;
+  DeliveryType: string;
+  Items: Item[];
+}
+
+export interface MainMenu {
+  BranchId: number;
+  Menu: Menu[];
+}

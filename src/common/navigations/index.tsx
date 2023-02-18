@@ -6,10 +6,9 @@ import {Colors} from '@Constants';
 import {RouteNames} from './Routes';
 import {ScaledSheet} from 'react-native-size-matters';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Text} from '@Components';
 import HomeScreen from '@Home/screens';
 import ProfileScreen from '@Profile/screens';
-import RestaurantScreen from '@Restaurant/screens/Restaurant';
+import RestaurantScreen from '@Restaurant/screens';
 import RestaurantMenuScreen from '@Restaurant/screens/RestaurantMenu';
 import {View} from 'react-native';
 
@@ -29,7 +28,6 @@ const TabBarIcon = ({
       style={[
         styles.tab,
         {
-          borderTopWidth: 2,
           borderTopColor: focused ? Colors.primary : Colors.darkBorder,
         },
       ]}>
@@ -87,7 +85,11 @@ const AppNavigationContainer = () => {
         },
       }}>
       <Stack.Navigator
-        screenOptions={{headerBackTitleVisible: false, headerShown: false}}>
+        screenOptions={{
+          headerBackTitleVisible: false,
+          headerShown: false,
+          fullScreenGestureEnabled: true,
+        }}>
         <Stack.Screen
           name={RouteNames.Root}
           component={Main}
@@ -122,5 +124,6 @@ const styles = ScaledSheet.create({
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
+    borderTopWidth: 2,
   },
 });

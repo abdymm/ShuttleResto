@@ -12,10 +12,13 @@ const BRANCHES_PAYLOAD = require('@Assets/data/branches.json');
 
 const RestaurantScreen = () => {
   const navigation = useNavigation<NavigationProps>();
-  const [branches, setBranches] = useState<Branch[]>(BRANCHES_PAYLOAD.branches);
+  const branches: Branch[] = BRANCHES_PAYLOAD.branches;
 
   const onItemPress = (item: Branch) => {
-    navigation.navigate(RouteNames.RestaurantMenu, {branchId: item.BranchId});
+    navigation.navigate(RouteNames.RestaurantMenu, {
+      branchId: item.BranchId,
+      branchName: item.Name,
+    });
   };
 
   return (
