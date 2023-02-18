@@ -16,6 +16,6 @@ const Text = (props: Props) => {
 export default Text;
 const styles = StyleSheet.create({
   text: {
-    color: Colors.dark,
+    color: Colors.text,
   },
 });

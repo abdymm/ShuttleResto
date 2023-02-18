@@ -15,7 +15,7 @@ export interface Routes extends ParamListBase {
   [RouteNames.Home]: undefined;
   [RouteNames.Profile]: undefined;
   [RouteNames.Restaurant]: undefined;
-  [RouteNames.RestaurantMenu]: undefined;
+  [RouteNames.RestaurantMenu]: {branchId: number};
 }
 
 export type NavigationProps = NavigationProp<Routes>;

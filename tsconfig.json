@@ -22,8 +22,8 @@
       "@Types/*": ["./src/common/types/*"],
       "@Stores": ["./src/common/stores"],
       "@Stores/*": ["./src/common/stores/*"],
-      "@Assets": ["./assets/images"],
-      "@Assets/*": ["./assets/images/*"],
+      "@Assets": ["./assets"],
+      "@Assets/*": ["./assets/*"],
 
       // Features
       "@Home": ["./src/features/Home"],

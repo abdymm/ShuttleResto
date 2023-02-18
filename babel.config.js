@@ -30,7 +30,7 @@ module.exports = {
           '@Navigations': './src/common/navigations',
           '@Types': './src/common/types',
           '@Stores': './src/common/stores',
-          '@Assets': './assets/images',
+          '@Assets': './assets',
 
           // Features
           '@Home': './src/features/Home',

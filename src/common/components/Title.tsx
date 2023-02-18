@@ -27,7 +27,6 @@ const styles = ScaledSheet.create({
   },
   title: {
     fontSize: Fonts.largeTitle,
-    color: Colors.text,
     fontWeight: '500',
   },
   subTitle: {

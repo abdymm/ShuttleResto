@@ -1,0 +1,370 @@
+{
+  "branches": [
+    {
+      "CompanyId": 441,
+      "BranchId": 506,
+      "Id": 506,
+      "Name": "Rice Bowl",
+      "BranchName": "Rice Bowl",
+      "AddressId": 23118,
+      "Address": "회나무로 41 ",
+      "ContactUserId": 16844,
+      "IsDeactivated": false,
+      "BillingCode": "089",
+      "DateModified": "2022-04-28 18:17:07",
+      "BranchUnavailableMessage": null,
+      "IsBranchTimingOpen": true,
+      "IsSpecialDateOpen": true,
+      "IsServiceRegionallyEnabled": true,
+      "IsShuttleOpen": true,
+      "NextOpeningTime": "2022-11-10T11:00:00+09:00",
+      "NextClosingTime": "2022-11-09T20:30:00+09:00",
+      "CompanyName": "Rice Bowl",
+      "CompanyDescription": "Rice Bowl will bowl you ever with filling rice bowls, nutrient-filled salad bowls, and fruity acai bowls. There are also a trio of juices will complete your heart-healthy meal. Get a bowl and get going. ",
+      "CompanyTagline": "Fresh and balanced healthy premium salad bibimbap and asai bowl",
+      "DatePublished": "2017-07-17T00:00:00+09:00",
+      "CompanyType": "restaurant",
+      "DeliveryType": "shuttle",
+      "CompanyHeaderImageUrlSmall": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyHeaderImageUrlLarge": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyLogoImageUrl": "https://dzphgfa9coxab.cloudfront.net/images/320x0/uploads.jpg",
+      "DeliveryFeeDiscountId": 227,
+      "DeliveryFeeReal": 10000,
+      "DeliveryFeeDiscounted": 6000,
+      "MinimumDiscountFoodValue": 0,
+      "Cuisines": [7],
+      "CuisinesLabels": [
+        {
+          "Id": 7,
+          "Label": "Veg & Health"
+        }
+      ],
+      "Tags": [3, 6],
+      "TagsLabels": [
+        {
+          "Id": 3,
+          "Label": "Vegan"
+        },
+        {
+          "Id": 6,
+          "Label": "Healthy"
+        }
+      ],
+      "MinimumOrderValue": 15000,
+      "LocationHash": "wydm9cbjh2zs",
+      "RatingAverage": 4.49,
+      "RatingCount": 51,
+      "PreparationMinutesAverage": 20,
+      "PreparationMinutesDeviation": null,
+      "DeliveryEstimationMin": 30,
+      "PostalDeliveryEstimationMin": null,
+      "DeliveryEstimationMax": 50,
+      "PostalDeliveryEstimationMax": null,
+      "AllowPayAtTheDoor": null,
+      "IsBranchOpen": true,
+      "HasPickupOption": true,
+      "DistanceToDestination": 3066,
+      "CountryOfOrigin": null,
+      "IsFavorite": true,
+      "IsNew": true,
+      "IsInServiceArea": true,
+      "ServiceDescription": null
+    },
+    {
+      "CompanyId": 125,
+      "BranchId": 134,
+      "Id": 134,
+      "Name": "Big India Seoul",
+      "BranchName": "Big India Seoul",
+      "AddressId": 3093,
+      "Address": "서울 용산구 우사단로10길 21",
+      "ContactUserId": 13391,
+      "IsDeactivated": false,
+      "BillingCode": "094",
+      "DateModified": "2022-04-28 18:17:07",
+      "BranchUnavailableMessage": null,
+      "IsBranchTimingOpen": true,
+      "IsSpecialDateOpen": true,
+      "IsServiceRegionallyEnabled": true,
+      "IsShuttleOpen": true,
+      "NextOpeningTime": "2022-11-10T11:00:00+09:00",
+      "NextClosingTime": "2022-11-09T21:40:00+09:00",
+      "CompanyName": "Big India Seoul",
+      "CompanyDescription": "\"Big India Seoul\" is a well-known Indian Itaewon institution. The interior, utensils, and dishes are Indian-style, which adds to the exotic atmosphere. Customers rave and crave the tandoori chicken and curry, but truly all of it is really good. Can’t make it out to Big India, let Big India come to you.",
+      "CompanyTagline": "Let Big India Come to You with Tandoori Chicken and Curry",
+      "DatePublished": "2020-08-04T00:00:00+09:00",
+      "CompanyType": "restaurant",
+      "DeliveryType": "shuttle",
+      "CompanyHeaderImageUrlSmall": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyHeaderImageUrlLarge": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyLogoImageUrl": "https://dzphgfa9coxab.cloudfront.net/images/320x0/uploads.jpg",
+      "DeliveryFeeDiscountId": 1418,
+      "DeliveryFeeReal": 10000,
+      "DeliveryFeeDiscounted": 6000,
+      "MinimumDiscountFoodValue": 0,
+      "Cuisines": [8],
+      "CuisinesLabels": [
+        {
+          "Id": 8,
+          "Label": "Indian"
+        }
+      ],
+      "Tags": [1, 5, 9],
+      "TagsLabels": [
+        {
+          "Id": 1,
+          "Label": "Halal"
+        },
+        {
+          "Id": 5,
+          "Label": "Sharing"
+        },
+        {
+          "Id": 9,
+          "Label": "Spicy"
+        }
+      ],
+      "MinimumOrderValue": 0,
+      "LocationHash": "wydm9bsnyhgt",
+      "RatingAverage": 5,
+      "RatingCount": 2,
+      "PreparationMinutesAverage": 20,
+      "PreparationMinutesDeviation": null,
+      "DeliveryEstimationMin": 30,
+      "PostalDeliveryEstimationMin": null,
+      "DeliveryEstimationMax": 50,
+      "PostalDeliveryEstimationMax": null,
+      "AllowPayAtTheDoor": null,
+      "IsBranchOpen": true,
+      "HasPickupOption": true,
+      "DistanceToDestination": 3937,
+      "CountryOfOrigin": "밀가루:(국내산)    쌀(:태국산)    양고기:(호주산)    닭고기:(브라질산 덴마크산)     야채:(국내산)     우유:(국내산)    향신료:(인도산)",
+      "IsFavorite": false,
+      "IsNew": false,
+      "IsInServiceArea": true,
+      "ServiceDescription": null
+    },
+    {
+      "CompanyId": 114,
+      "BranchId": 122,
+      "Id": 122,
+      "Name": "Kebabss",
+      "BranchName": "Kebabss",
+      "AddressId": 1630,
+      "Address": "이태원동 136-45 1층",
+      "ContactUserId": 13340,
+      "IsDeactivated": false,
+      "BillingCode": "033",
+      "DateModified": "2022-04-28 18:17:07",
+      "BranchUnavailableMessage": null,
+      "IsBranchTimingOpen": true,
+      "IsSpecialDateOpen": true,
+      "IsServiceRegionallyEnabled": true,
+      "IsShuttleOpen": true,
+      "NextOpeningTime": "2022-11-10T11:00:00+09:00",
+      "NextClosingTime": "2022-11-09T23:59:00+09:00",
+      "CompanyName": "Kebabss",
+      "CompanyDescription": "Kebabss has been the BMOK in Itaewon for 6 years and counting. They are serving Turkish fast food & kebabs in countless combinations. Kebabss is great as a snack, but even better as a meal. The owner is Turkish, all dishes are and the restaurant have the official halal certification. Get Kebabs carted over to you in a few.",
+      "CompanyTagline": "Master of Kebab in Seoul",
+      "DatePublished": "2016-06-05T00:00:00+09:00",
+      "CompanyType": "restaurant",
+      "DeliveryType": "shuttle",
+      "CompanyHeaderImageUrlSmall": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyHeaderImageUrlLarge": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyLogoImageUrl": "https://dzphgfa9coxab.cloudfront.net/images/320x0/uploads.jpg",
+      "DeliveryFeeDiscountId": 1217,
+      "DeliveryFeeReal": 10000,
+      "DeliveryFeeDiscounted": 6000,
+      "MinimumDiscountFoodValue": 8000,
+      "Cuisines": [11],
+      "CuisinesLabels": [
+        {
+          "Id": 11,
+          "Label": "Arabic & Turkish"
+        }
+      ],
+      "Tags": [1, 7],
+      "TagsLabels": [
+        {
+          "Id": 1,
+          "Label": "Halal"
+        },
+        {
+          "Id": 7,
+          "Label": "Under 10K"
+        }
+      ],
+      "MinimumOrderValue": 0,
+      "LocationHash": "wydm9bg6wvjz",
+      "RatingAverage": 4.46,
+      "RatingCount": 24,
+      "PreparationMinutesAverage": 20,
+      "PreparationMinutesDeviation": null,
+      "DeliveryEstimationMin": 33,
+      "PostalDeliveryEstimationMin": null,
+      "DeliveryEstimationMax": 53,
+      "PostalDeliveryEstimationMax": null,
+      "AllowPayAtTheDoor": null,
+      "IsBranchOpen": true,
+      "HasPickupOption": true,
+      "DistanceToDestination": 3826,
+      "CountryOfOrigin": "닭고기 : 브라질산, 태국산\r\n양고기 : 호주산\r\n소고기 : 호주산\r\n감자 : 미국산\r\n고추가루 : 중국산, 국내산\r\n쌀 : 국내산",
+      "IsFavorite": false,
+      "IsNew": false,
+      "IsInServiceArea": true,
+      "ServiceDescription": null
+    },
+    {
+      "CompanyId": 860,
+      "BranchId": 955,
+      "Id": 955,
+      "Name": "Nova Pizza",
+      "BranchName": "Nova Pizza",
+      "AddressId": 75811,
+      "Address": "서울특별시 용산구 한남동 618-7 3층 ",
+      "ContactUserId": 55383,
+      "IsDeactivated": false,
+      "BillingCode": "",
+      "DateModified": "2022-04-28 18:17:07",
+      "BranchUnavailableMessage": null,
+      "IsBranchTimingOpen": true,
+      "IsSpecialDateOpen": true,
+      "IsServiceRegionallyEnabled": true,
+      "IsShuttleOpen": true,
+      "NextOpeningTime": "2022-11-10T16:00:00+09:00",
+      "NextClosingTime": "2022-11-09T22:00:00+09:00",
+      "CompanyName": "Nova Pizza",
+      "CompanyDescription": "Nova cooks every food item with pride. Pizzas are baked with fresh housemade dough, aged at low temperature for 48 hours. Our signature items are 'Garlic Barbecue Chicken Pizza' made with grilled chicken marinated with spicy Thai seasoning, and White Truffle Mushroom, made with housemade cream sauce, mushroom, and cauliflowers. *Jalapeno cucumber pickles, hot sauce, and parmesan are included in every order.",
+      "CompanyTagline": "A Nest of Vipers",
+      "DatePublished": "2019-04-11T00:00:00+09:00",
+      "CompanyType": "restaurant",
+      "DeliveryType": "shuttle",
+      "CompanyHeaderImageUrlSmall": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyHeaderImageUrlLarge": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyLogoImageUrl": "https://dzphgfa9coxab.cloudfront.net/images/320x0/uploads.jpg",
+      "DeliveryFeeDiscountId": 1316,
+      "DeliveryFeeReal": 10000,
+      "DeliveryFeeDiscounted": 6000,
+      "MinimumDiscountFoodValue": 19000,
+      "Cuisines": [4, 9, 12],
+      "CuisinesLabels": [
+        {
+          "Id": 4,
+          "Label": "American & Grill"
+        },
+        {
+          "Id": 9,
+          "Label": "Italian & Pizza"
+        },
+        {
+          "Id": 12,
+          "Label": "European"
+        }
+      ],
+      "Tags": [5, 8, 10],
+      "TagsLabels": [
+        {
+          "Id": 5,
+          "Label": "Sharing"
+        },
+        {
+          "Id": 8,
+          "Label": "Instagram friendly"
+        },
+        {
+          "Id": 10,
+          "Label": "Big Portions"
+        }
+      ],
+      "MinimumOrderValue": 0,
+      "LocationHash": "wydmd06shmry",
+      "RatingAverage": 4.13,
+      "RatingCount": 8,
+      "PreparationMinutesAverage": 20,
+      "PreparationMinutesDeviation": null,
+      "DeliveryEstimationMin": 33,
+      "PostalDeliveryEstimationMin": null,
+      "DeliveryEstimationMax": 53,
+      "PostalDeliveryEstimationMax": null,
+      "AllowPayAtTheDoor": null,
+      "IsBranchOpen": true,
+      "HasPickupOption": true,
+      "DistanceToDestination": 4622,
+      "CountryOfOrigin": "",
+      "IsFavorite": false,
+      "IsNew": false,
+      "IsInServiceArea": true,
+      "ServiceDescription": null
+    },
+    {
+      "CompanyId": 199,
+      "BranchId": 270,
+      "Id": 270,
+      "Name": "Fantastic Thai",
+      "BranchName": "Fantastic Thai",
+      "AddressId": 9043,
+      "Address": "서울특별시 용산구 이태원로 238 3층",
+      "ContactUserId": 13321,
+      "IsDeactivated": false,
+      "BillingCode": "006",
+      "DateModified": "2022-04-28 18:17:07",
+      "BranchUnavailableMessage": null,
+      "IsBranchTimingOpen": true,
+      "IsSpecialDateOpen": true,
+      "IsServiceRegionallyEnabled": true,
+      "IsShuttleOpen": true,
+      "NextOpeningTime": "2022-11-10T11:30:00+09:00",
+      "NextClosingTime": "2022-11-09T21:30:00+09:00",
+      "CompanyName": "Fantastic Thai",
+      "CompanyDescription": "Fantastic Thai will have you tongue-tied because you won’t be able to find the words to describe how damn good all their dishes are. The menu features a hall of fame food roster with a wide array of savory soups and salads, knockout noodles, and kickass curry.  The Pad Thai, the Satay and the Yum Woon Sen is all good. It’s fantastic how fast we can get Fantastic Thai to you.",
+      "CompanyTagline": "Best Thai Cuisine in Korea with Thai Select Certification",
+      "DatePublished": "2016-06-05T00:00:00+09:00",
+      "CompanyType": "restaurant",
+      "DeliveryType": "shuttle",
+      "CompanyHeaderImageUrlSmall": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyHeaderImageUrlLarge": "https://dzphgfa9coxab.cloudfront.net/test/includes/dist/images/vendor-placeholder/chef_placeholder.jpg",
+      "CompanyLogoImageUrl": "https://dzphgfa9coxab.cloudfront.net/images/320x0/uploads.jpg",
+      "DeliveryFeeDiscountId": null,
+      "DeliveryFeeReal": 10000,
+      "DeliveryFeeDiscounted": null,
+      "MinimumDiscountFoodValue": 0,
+      "Cuisines": [5],
+      "CuisinesLabels": [
+        {
+          "Id": 5,
+          "Label": "Asian"
+        }
+      ],
+      "Tags": [5, 9],
+      "TagsLabels": [
+        {
+          "Id": 5,
+          "Label": "Sharing"
+        },
+        {
+          "Id": 9,
+          "Label": "Spicy"
+        }
+      ],
+      "MinimumOrderValue": 0,
+      "LocationHash": "wydm9cnqwqxn",
+      "RatingAverage": 4.57,
+      "RatingCount": 42,
+      "PreparationMinutesAverage": 20,
+      "PreparationMinutesDeviation": null,
+      "DeliveryEstimationMin": 33,
+      "PostalDeliveryEstimationMin": null,
+      "DeliveryEstimationMax": 53,
+      "PostalDeliveryEstimationMax": null,
+      "AllowPayAtTheDoor": null,
+      "IsBranchOpen": true,
+      "HasPickupOption": true,
+      "DistanceToDestination": 3905,
+      "CountryOfOrigin": "쌀 국내산\r\n소고기 호주산\r\n돼지고기 국내산\r\n야채 국내산\r\n해산물 베트남산",
+      "IsFavorite": false,
+      "IsNew": false,
+      "IsInServiceArea": true,
+      "ServiceDescription": null
+    }
+  ]
+}
