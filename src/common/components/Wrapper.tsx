@@ -37,7 +37,7 @@ const styles = ScaledSheet.create({
     paddingTop: Platform.OS === 'ios' ? 0 : Spacing.v.xl,
   },
   background: {
-    backgroundColor: Colors.light,
+    backgroundColor: Colors.pageBackground,
   },
   imageBackground: {
     width: '100%',

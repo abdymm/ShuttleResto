@@ -36,7 +36,7 @@ const App = () => {
   return (
     <StoreProvider store={store}>
       <PaperProvider theme={theme}>
-        <StatusBar barStyle={'default'} />
+        <StatusBar barStyle={'light-content'} />
         <AppNavigationContainer />
       </PaperProvider>
     </StoreProvider>

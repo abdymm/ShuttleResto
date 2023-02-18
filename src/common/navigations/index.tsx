@@ -7,27 +7,15 @@ import {RouteNames} from './Routes';
 import {ScaledSheet} from 'react-native-size-matters';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Text} from '@Components';
-import {Fonts, Spacing} from '@Constants/Metrics';
 import HomeScreen from '@Home/screens';
 import ProfileScreen from '@Profile/screens';
 import RestaurantScreen from '@Restaurant/screens/Restaurant';
 import RestaurantMenuScreen from '@Restaurant/screens/RestaurantMenu';
+import {View} from 'react-native';
 
 const TAB_ICON_SIZE = 24;
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
-
-const TabBarLabel = ({focused, label}: {focused: boolean; label: string}) => {
-  return (
-    <Text
-      style={[
-        styles.tabLabel,
-        {color: focused ? Colors.primary : Colors.subTitle},
-      ]}>
-      {label}
-    </Text>
-  );
-};
 
 const TabBarIcon = ({
   focused,
@@ -37,11 +25,20 @@ const TabBarIcon = ({
   iconName: string;
 }) => {
   return (
-    <Ionicons
-      name={`${iconName}${focused ? '' : '-outline'}`}
-      color={focused ? Colors.primary : Colors.subTitle}
-      size={TAB_ICON_SIZE}
-    />
+    <View
+      style={[
+        styles.tab,
+        {
+          borderTopWidth: 2,
+          borderTopColor: focused ? Colors.primary : Colors.darkBorder,
+        },
+      ]}>
+      <Ionicons
+        name={`${iconName}${focused ? '' : '-outline'}`}
+        color={focused ? Colors.primary : Colors.subTitle}
+        size={TAB_ICON_SIZE}
+      />
+    </View>
   );
 };
 
@@ -53,15 +50,14 @@ const Main = () => {
         headerShown: false,
         tabBarStyle: {
           height: 84,
+          backgroundColor: Colors.pageBackground,
         },
+        tabBarShowLabel: false,
       }}>
       <Tab.Screen
         name={RouteNames.Home}
         component={HomeScreen}
         options={{
-          tabBarLabel: ({focused}) => {
-            return <TabBarLabel focused={focused} label={RouteNames.Home} />;
-          },
           tabBarIcon: ({focused}) => {
             return <TabBarIcon iconName="ios-home" focused={focused} />;
           },
@@ -71,9 +67,6 @@ const Main = () => {
         name={RouteNames.Profile}
         component={ProfileScreen}
         options={{
-          tabBarLabel: ({focused}) => {
-            return <TabBarLabel focused={focused} label={'Profile'} />;
-          },
           tabBarIcon: ({focused}) => {
             return <TabBarIcon iconName="person-circle" focused={focused} />;
           },
@@ -123,29 +116,11 @@ const AppNavigationContainer = () => {
 export default AppNavigationContainer;
 
 const styles = ScaledSheet.create({
-  drawerItemLabel: {
-    fontFamily: 'Poppins-Regular',
-  },
-  bar: {
-    flexDirection: 'row',
-    borderTopWidth: 0.5,
-    borderTopColor: Colors.border,
-  },
   tab: {
-    flex: 1,
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 86,
-    paddingBottom: Spacing.v.lg,
-  },
-  tabContent: {
-    flexDirection: 'row',
-    borderRadius: 100,
-    paddingVertical: Spacing.v.rg,
-    paddingHorizontal: Spacing.v.lg,
-  },
-  tabLabel: {
-    fontSize: Fonts.caption1,
-    fontWeight: '500',
   },
 });
