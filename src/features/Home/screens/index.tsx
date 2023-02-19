@@ -22,6 +22,7 @@ const HomeScreen = () => {
       <View style={styles.searchContainer}>
         <View style={styles.searchInputContainer}>
           <Searchbar
+            testID="searchRestaurant"
             placeholder="What do you want to eat..."
             onChangeText={onChangeSearch}
             onSubmitEditing={onSearch}

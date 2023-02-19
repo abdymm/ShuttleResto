@@ -36,7 +36,7 @@ const RestaurantScreen = ({restaurantState, fetch}: Props) => {
   return (
     <Wrapper>
       <Title title="All Cuisines" containerStyle={styles.title} />
-      <View style={styles.container}>
+      <View style={styles.container} testID="restaurantScreen">
         {branches?.length === 0 && !loading ? (
           <View style={styles.errorContainer}>
             <Text style={styles.error}>Restaurant Not Found</Text>

@@ -20,7 +20,7 @@ const RestaurantMenuScreen = () => {
 
   return (
     <Wrapper>
-      <View style={styles.menuContainer}>
+      <View style={styles.menuContainer} testID="restaurantMenuScreen">
         <FlashList
           ListHeaderComponent={() => {
             return (

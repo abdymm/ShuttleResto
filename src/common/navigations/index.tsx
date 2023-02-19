@@ -56,8 +56,9 @@ const Main = () => {
         name={RouteNames.Home}
         component={HomeScreen}
         options={{
+          tabBarTestID: 'tabHome',
           tabBarIcon: ({focused}) => {
-            return <TabBarIcon iconName="ios-home" focused={focused} />;
+            return <TabBarIcon iconName="ios-home" focused={focused}  />;
           },
         }}
       />
@@ -65,6 +66,7 @@ const Main = () => {
         name={RouteNames.Profile}
         component={ProfileScreen}
         options={{
+          tabBarTestID: 'tabProfile',
           tabBarIcon: ({focused}) => {
             return <TabBarIcon iconName="person-circle" focused={focused} />;
           },

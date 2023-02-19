@@ -10,7 +10,7 @@ const BRANCHES_PAYLOAD = require('@Assets/data/branches.json');
 class RestaurantService {
   api = new API();
   async fetch(query: string) {
-    // alert(query);
+    /* this code when we wwant to fetch the data from api, currently we are just using our mock data */
     // return await this.api.apiRequest.get<RestaurantResponse>(
     //   ENDPOINT_RESTAURANT,
     // );

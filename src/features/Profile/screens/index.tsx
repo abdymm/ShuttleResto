@@ -13,7 +13,7 @@ const ProfileScreen = () => {
   };
   return (
     <Wrapper withHeader={false}>
-      <View style={styles.listContainer}>
+      <View style={styles.listContainer} testID="profileScreen">
         <FlashList
           ListHeaderComponent={() => {
             return (

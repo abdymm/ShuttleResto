@@ -15,6 +15,7 @@ interface Props {
 const ProfileMenuItem = ({item, onPress}: Props) => {
   return (
     <TouchableOpacity
+      testID="profileMenuItem"
       style={styles.container}
       onPress={() => {
         onPress(item);

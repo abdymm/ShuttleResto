@@ -28,6 +28,7 @@ const RestaurantItem = ({item, onPress}: Props) => {
 
   return (
     <TouchableOpacity
+      testID="restaurantItem"
       style={styles.container}
       onPress={() => {
         onPress(item);
