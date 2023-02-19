@@ -1,18 +1,30 @@
 import {ENDPOINT_RESTAURANT} from '@Constants/API';
 import {APIResponse} from '@Types/APIResponse';
-import {Restaurant} from '@Types/Restaurant';
+import {Branch} from '@Types/Restaurant';
 import {API} from './API';
 
 export interface RestaurantResponse extends APIResponse {
-  restaurants: Restaurant[];
+  restaurants: Branch[];
 }
-
+const BRANCHES_PAYLOAD = require('@Assets/data/branches.json');
 class RestaurantService {
   api = new API();
-  async getAll() {
-    return await this.api.apiRequest.get<RestaurantResponse>(
-      ENDPOINT_RESTAURANT,
-    );
+  async fetch(query: string) {
+    // alert(query);
+    // return await this.api.apiRequest.get<RestaurantResponse>(
+    //   ENDPOINT_RESTAURANT,
+    // );
+    const branches: Branch[] = BRANCHES_PAYLOAD.branches;
+    const filteredBranches =
+      query === '' || query === null
+        ? branches
+        : branches.filter(branch =>
+            branch.BranchName.toLocaleLowerCase().includes(
+              query.toLocaleLowerCase(),
+            ),
+          );
+
+    return filteredBranches;
   }
 }
 

@@ -1,4 +1,5 @@
-import {Spacing} from '@Constants/Metrics';
+import {Colors} from '@Constants';
+import {Fonts, Spacing} from '@Constants/Metrics';
 import {ScaledSheet} from 'react-native-size-matters';
 
 const styles = ScaledSheet.create({
@@ -11,6 +12,15 @@ const styles = ScaledSheet.create({
   },
   list: {
     paddingHorizontal: Spacing.h.xl,
+  },
+  errorContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: Spacing.v.xxl,
+  },
+  error: {
+    color: Colors.gray,
+    fontSize: Fonts.subhead,
   },
 });
 

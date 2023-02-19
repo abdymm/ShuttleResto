@@ -1,3 +1,6 @@
 import {Models} from '@rematch/core';
-export interface RootModel extends Models<RootModel> {}
-export const models: RootModel = {};
+import restaurant from '@Restaurant/models/restaurant';
+export interface RootModel extends Models<RootModel> {
+  restaurant: typeof restaurant;
+}
+export const models: RootModel = {restaurant};

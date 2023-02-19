@@ -13,7 +13,7 @@ const HomeScreen = () => {
 
   const onChangeSearch = (query: string) => setSearchQuery(query);
   const onSearch = () => {
-    navigation.navigate(RouteNames.Restaurant);
+    navigation.navigate(RouteNames.Restaurant, {query: searchQuery});
   };
 
   return (

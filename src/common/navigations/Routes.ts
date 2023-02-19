@@ -14,7 +14,7 @@ export enum RouteNames {
 export interface Routes extends ParamListBase {
   [RouteNames.Home]: undefined;
   [RouteNames.Profile]: undefined;
-  [RouteNames.Restaurant]: undefined;
+  [RouteNames.Restaurant]: {query: string};
   [RouteNames.RestaurantMenu]: {branchId: number; branchName: string};
 }
 
