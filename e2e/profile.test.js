@@ -17,7 +17,7 @@ describe('Profile', () => {
     await expect(element(by.text('abdymalikmulky@gmail.com'))).toBeVisible();
 
     await expect(element(by.id('profileMenuItem')).atIndex(0)).toBeVisible();
-    await expect(element(by.id('profileMenuItem')).atIndex(0)).toHaveText(
+    await expect(element(by.id('profileMenuItemText')).atIndex(0)).toHaveText(
       'Create an Address',
     );
     await expect(element(by.id('profileMenuItem')).atIndex(1)).toBeVisible();

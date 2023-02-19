@@ -21,7 +21,9 @@ const ProfileMenuItem = ({item, onPress}: Props) => {
         onPress(item);
       }}>
       <Image source={item.icon} style={styles.image} resizeMode="contain" />
-      <Text style={styles.label}>{item.label}</Text>
+      <Text style={styles.label} testID="profileMenuItemText">
+        {item.label}
+      </Text>
     </TouchableOpacity>
   );
 };
